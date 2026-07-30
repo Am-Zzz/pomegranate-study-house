@@ -26,7 +26,7 @@ const el = (tag, cls, html) => {
  * - 云端/独立模式（部署到静态托管，如 CloudStudio）：数据存浏览器 localStorage，
  *   首次打开用打包的 data/*.json 做种子；之后所有读写都在手机本地，不依赖电脑。
  */
-const STANDALONE = !/^(127\.0\.0\.1|localhost|192\.168\.|10\.|172\.(1[6-9]|2\d|3[01])\.)/.test(location.hostname) || !!window.__EMBEDDED__;
+const STANDALONE = !/^(127\.0\.0\.1|localhost|192\.168\.|10\.|172\.(1[6-9]|2\d|3[01])\.)/.test(location.hostname) || !!window.__EMBEDDED__ || (typeof window.Capacitor !== "undefined");
 const LS_PREFIX = "shiliu_db_";
 
 function loadJSON(name) {
