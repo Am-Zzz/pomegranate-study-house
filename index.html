@@ -12,6 +12,11 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="theme-color" content="#ffc83d" />
+  <!-- PWA 安装清单 + 多尺寸/可遮罩图标 -->
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="pwa-icon-192.png" type="image/png" sizes="192x192" />
+  <link rel="icon" href="assets/icon-512.png" type="image/png" sizes="512x512" />
+  <link rel="apple-touch-startup-image" href="maskable-icon.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -89,7 +94,31 @@
   <!-- 轻提示 -->
   <div class="toast" id="toast"></div>
 
+  <!-- iOS 添加到主屏幕引导条 -->
+  <div id="iosTip" class="ios-tip" hidden>
+    <span class="ios-tip-txt">📲 点底部「分享」→「添加到主屏幕」，把它变成手机里的 APP</span>
+    <button class="ios-tip-close" onclick="document.getElementById('iosTip').hidden=true">知道了</button>
+  </div>
+
   <script src="app.js"></script>
+  <script>
+    // 注册 Service Worker（离线可开，更像原生 APP）
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("sw.js").catch(function () {});
+      });
+    }
+    // iOS Safari 且尚未添加到主屏时，提示安装
+    (function () {
+      var ua = navigator.userAgent;
+      var isIOS = /iP(hone|ad|od)/.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+      var isStandalone = "standalone" in window.navigator && window.navigator.standalone;
+      if (isIOS && !isStandalone) {
+        var tip = document.getElementById("iosTip");
+        if (tip) tip.hidden = false;
+      }
+    })();
+  </script>
 </body>
 </html>
 </content>
