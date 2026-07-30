@@ -621,3 +621,17 @@ body.kid .home-hero { background: linear-gradient(135deg, #fff3d4 0%, #e3f6e8 10
 
 </content>
 </invoke>
+/* iOS 添加到主屏幕引导条 */
+.ios-tip {
+  position: fixed; left: 50%; transform: translateX(-50%); bottom: 14px; z-index: 60;
+  width: min(92vw, 460px);
+  background: linear-gradient(135deg, #fff3d4, #ffe9a8);
+  border: 1px solid #ffd84d; border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(255,159,26,.25);
+  padding: 12px 14px; display: flex; align-items: center; gap: 10px;
+  font-size: 13px; font-weight: 700; color: #8a5a00;
+}
+.ios-tip[hidden] { display: none; }
+.ios-tip-txt { flex: 1; line-height: 1.4; }
+.ios-tip-close { flex: none; border: none; background: #ffc83d; color: #6b4500;
+  font-weight: 800; font-size: 12px; padding: 6px 12px; border-radius: 999px; cursor: pointer; }
