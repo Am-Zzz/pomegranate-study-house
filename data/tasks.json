@@ -1,0 +1,59 @@
+{
+  "_schema": "任务定义与打卡记录。tasks[] 为任务模板（家长在『管理任务』里增删改）；checkins[] 为每日打卡流水。页面点 ✅打卡 或家长口述，会自动写入 checkins 并触发阳光值 + 植物园更新。repeat=daily 的任务每天可打卡一次。",
+  "tasks": [
+    {
+      "id": "T003",
+      "title": "亲子阅读15分钟",
+      "category": "阅读",
+      "points": 10,
+      "icon": "📚",
+      "repeat": "daily",
+      "active": true
+    },
+    {
+      "id": "T004",
+      "title": "户外运动30分钟",
+      "category": "运动",
+      "points": 10,
+      "icon": "⚽",
+      "repeat": "daily",
+      "active": true
+    },
+    {
+      "id": "T005",
+      "title": "自己收拾书包",
+      "category": "习惯",
+      "points": 10,
+      "icon": "🎒",
+      "repeat": "daily",
+      "active": true
+    },
+    {
+      "id": "Tms3dxkus",
+      "title": "喝完整杯水",
+      "category": "习惯",
+      "points": 5,
+      "icon": "🌟",
+      "repeat": "daily",
+      "active": true
+    },
+    {
+      "id": "Tms3eh24a",
+      "title": "读绘本故事",
+      "category": "语文",
+      "points": 10,
+      "icon": "📖",
+      "repeat": "daily",
+      "active": true
+    }
+  ],
+  "checkins": [
+    {
+      "id": "Cms3c95gc",
+      "date": "2026-07-27",
+      "taskId": "T004",
+      "doneAt": "2026-07-27T14:44:56.412Z",
+      "points": 10
+    }
+  ]
+}

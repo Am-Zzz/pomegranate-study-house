@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>石榴学习屋 🍎</title>
+  <link rel="icon" href="assets/girl-icon-rounded.png" type="image/png" />
+  <!-- iPhone/iPad Safari 添加到主屏幕的图标（必须不透明、直角，iOS 自动加圆角） -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="石榴学习屋" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <!-- 安卓浏览器添加到主屏幕的图标 -->
+  <link rel="icon" sizes="512x512" href="assets/icon-512.png" />
+  <meta name="theme-color" content="#ffc83d" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <!-- 左侧导航 -->
+    <aside class="sidebar">
+      <div class="brand">
+        <img class="brand-logo" src="assets/girl-icon-rounded.png" alt="石榴" />
+        <div class="brand-name" id="brandName">石榴<small>学习屋</small></div>
+      </div>
+      <nav class="nav">
+        <!-- 首页 -->
+        <div class="nav-group">
+          <button class="nav-btn" data-sec="home"><span class="nav-ico">🏠</span><span class="nav-txt">首页</span></button>
+        </div>
+
+        <!-- 每日 -->
+        <div class="nav-group">
+          <div class="nav-group-label">每日</div>
+          <button class="nav-btn" data-sec="tasks"><span class="nav-ico">📅</span><span class="nav-txt">今日任务</span><span class="cnt cnt-tasks" id="cnt-tasks"></span></button>
+          <button class="nav-btn" data-sec="garden"><span class="nav-ico">🌻</span><span class="nav-txt">植物园</span><span class="cnt cnt-garden" id="cnt-garden"></span></button>
+        </div>
+
+        <!-- 学习 -->
+        <div class="nav-group">
+          <div class="nav-group-label">学习</div>
+          <button class="nav-btn" data-sec="handbook"><span class="nav-ico">🌏</span><span class="nav-txt">见世面</span><span class="cnt" id="cnt-handbook"></span></button>
+          <button class="nav-btn" data-sec="challenge"><span class="nav-ico">🗓</span><span class="nav-txt">30天挑战</span><span class="cnt" id="cnt-challenge"></span></button>
+          <button class="nav-btn" data-sec="knowledge"><span class="nav-ico">📚</span><span class="nav-txt">知识库</span><span class="cnt" id="cnt-knowledge"></span></button>
+          <button class="nav-btn" data-sec="calendar"><span class="nav-ico">📈</span><span class="nav-txt">成长日历</span></button>
+        </div>
+
+        <!-- 奖励 -->
+        <div class="nav-group">
+          <div class="nav-group-label">奖励</div>
+          <button class="nav-btn" data-sec="bank"><span class="nav-ico">💰</span><span class="nav-txt">阳光银行</span><span class="cnt cnt-bank" id="cnt-bank"></span></button>
+        </div>
+      </nav>
+      <div class="side-foot">
+        <button class="side-foot-btn manage-only" id="sideSettings"><span class="nav-ico">⚙️</span><span class="nav-txt">设置</span></button>
+      </div>
+    </aside>
+
+    <!-- 右侧内容 -->
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar-row">
+          <div class="topbar-left">
+            <h1 id="sec-title">首页</h1>
+            <div class="topbar-sub" id="sec-sub">欢迎回来 🌞</div>
+          </div>
+          <div class="topbar-right" id="topbar-right">
+            <button class="btn ghost sm manage-only" id="settingsBtn" title="设置">⚙️ 设置</button>
+            <button class="btn ghost sm" id="kidToggle">🧒 儿童视图</button>
+            <img class="topbar-mascot" src="assets/girl-icon-rounded.png" alt="" id="topbarMascot" />
+          </div>
+        </div>
+      </header>
+      <section id="content" class="content">加载中…</section>
+    </main>
+  </div>
+
+  <!-- 弹层 -->
+  <div class="mask" id="mask">
+    <div class="modal">
+      <div class="modal-title" id="modalTitle">标题</div>
+      <div class="modal-body" id="modalBody"></div>
+      <div class="modal-foot">
+        <button class="btn ghost" id="modalCancel">取消</button>
+        <button class="btn primary" id="modalOk">确定</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 轻提示 -->
+  <div class="toast" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+</content>
+</invoke>

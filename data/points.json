@@ -1,0 +1,41 @@
+{
+  "_schema": "阳光值银行。total 为石榴当前可用阳光值；log[] 记录每次变动：type=earn(打卡获得)/spend(兑换礼物扣除)，reason 说明来源，ref 关联任务/礼物 id。",
+  "total": 30,
+  "log": [
+    {
+      "date": "2026-07-27",
+      "type": "earn",
+      "amount": 5,
+      "reason": "见世面：逛菜市场",
+      "ref": "w21"
+    },
+    {
+      "date": "2026-07-27",
+      "type": "earn",
+      "amount": 5,
+      "reason": "见世面：看电子支付",
+      "ref": "w63"
+    },
+    {
+      "date": "2026-07-27",
+      "type": "earn",
+      "amount": 5,
+      "reason": "见世面：坐公交看站牌",
+      "ref": "w11"
+    },
+    {
+      "date": "2026-07-27",
+      "type": "earn",
+      "amount": 5,
+      "reason": "见世面：观察红绿灯",
+      "ref": "w14"
+    },
+    {
+      "date": "2026-07-27",
+      "type": "earn",
+      "amount": 10,
+      "reason": "完成 户外运动30分钟",
+      "ref": "T004"
+    }
+  ]
+}

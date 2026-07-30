@@ -1,0 +1,23 @@
+{
+  "_schema": "植物园（僵尸防御）状态。plants[] 为已种植物（hp 当前血量，maxHp 满血，hp=0 表示被吃掉枯萎）；seeds[] 为种子商店可种的植物（cost=所需阳光值，role=攻击/防御/能量/治愈/爆发）；zombies[] 为来袭僵尸（progress 0-100 推进度，speed 每次漏打卡推进值）；log[] 战斗日志；victories 累计击退次数；settledDates[] 已结算日期（防重复结算）。每天点『结束今天』结算：未完成每日任务会让僵尸前进 speed 点；全部完成则僵尸后退、植物回血；僵尸 progress 到 100 会吃掉最弱的一株植物。",
+  "plants": [
+    { "id": "P001", "name": "向日葵", "icon": "🌻", "hp": 100, "maxHp": 100, "role": "能量", "plantedDate": "2026-07-27" },
+    { "id": "P002", "name": "小草", "icon": "🌿", "hp": 100, "maxHp": 100, "role": "守护", "plantedDate": "2026-07-27" },
+    { "id": "P003", "name": "郁金香", "icon": "🌷", "hp": 100, "maxHp": 100, "role": "治愈", "plantedDate": "2026-07-27" }
+  ],
+  "seeds": [
+    { "id": "S_sun", "name": "阳光向日葵", "icon": "🌻", "cost": 20, "role": "能量", "desc": "暖暖的，看着就开心" },
+    { "id": "S_daisy", "name": "小雏菊", "icon": "🌼", "cost": 25, "role": "治愈", "desc": "陪你一起长大" },
+    { "id": "S_pea", "name": "豌豆射手", "icon": "🌱", "cost": 30, "role": "攻击", "desc": "吐豌豆赶跑懒惰僵尸" },
+    { "id": "S_wall", "name": "坚果墙", "icon": "🥥", "cost": 40, "role": "防御", "desc": "厚厚外壳挡伤害" },
+    { "id": "S_cherry", "name": "樱桃炸弹", "icon": "💥", "cost": 60, "role": "爆发", "desc": "关键时刻炸飞僵尸" }
+  ],
+  "zombies": [
+    { "id": "Z001", "name": "拖延僵尸", "icon": "🧟", "progress": 70, "speed": 15 }
+  ],
+  "settledDates": [ "2026-07-27" ],
+  "log": [],
+  "victories": 0,
+  "lastVictoryDate": "",
+  "rule": "每天点『结束今天』结算：未完成的任务会让僵尸前进 speed 点；全部完成则僵尸后退、植物回血。僵尸 progress 到 100 会吃掉最弱的一株植物。用阳光值在种子商店种新植物，也能浇灌回血。"
+}

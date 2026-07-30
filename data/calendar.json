@@ -1,0 +1,14 @@
+{
+  "_schema": "成长日历与记录。days[] 按日期记录打卡情况（doneTasks 完成数 / totalTasks 当日任务总数 / pointsEarned 当日获得阳光值 / missed 漏做数 / note 备注）；milestones[] 为成长里程碑（如连续打卡7天 🏆）。",
+  "days": [
+    {
+      "date": "2026-07-27",
+      "doneTasks": 0,
+      "totalTasks": 5,
+      "pointsEarned": 0,
+      "missed": 5,
+      "note": ""
+    }
+  ],
+  "milestones": []
+}

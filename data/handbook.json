@@ -1,0 +1,682 @@
+{
+  "_schema": "暑假低成本见世面行动手册。meta 为封面信息与每件小事奖励的阳光值；weekly 为本周小计划（picks 最多3个itemId、expect 最期待、companion 同行人）；categories[] 8大类每类5件小事，item: {id,title,done,date,awarded}（awarded=是否已发过阳光值，防重复刷分）；cards[] 8张观察记录卡模板，field.type: text=单行/area=多行/checks=勾选清单(options)；entries[] 为孩子填写的记录 {id,cardId,date,values{k:值}}；map 为见世面地图汇总页（places 去过的地方、proud 最骄傲、parentNote 家长的一句话）。",
+  "meta": {
+    "title": "暑假低成本见世面行动手册",
+    "subtitle": "40 件家门口就能做的生活探索小事",
+    "motto1": "不赶进度，慢慢看见生活。",
+    "motto2": "见世面不是跑很远，而是带着好奇心看生活。",
+    "pointsPerItem": 5
+  },
+  "weekly": {
+    "picks": [],
+    "expect": "",
+    "companion": ""
+  },
+  "categories": [
+    {
+      "id": "c1",
+      "name": "看城市怎么运转",
+      "icon": "🚌",
+      "items": [
+        {
+          "id": "w11",
+          "title": "坐公交看站牌",
+          "done": false,
+          "date": "",
+          "awarded": true
+        },
+        {
+          "id": "w12",
+          "title": "坐地铁看线路图",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w13",
+          "title": "去车站看进站",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w14",
+          "title": "观察红绿灯",
+          "done": false,
+          "date": "",
+          "awarded": true
+        },
+        {
+          "id": "w15",
+          "title": "看环卫清扫",
+          "done": false,
+          "date": "",
+          "awarded": false
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "name": "看生活从哪里来",
+      "icon": "🥬",
+      "items": [
+        {
+          "id": "w21",
+          "title": "逛菜市场",
+          "done": false,
+          "date": "",
+          "awarded": true
+        },
+        {
+          "id": "w22",
+          "title": "看价格标签",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w23",
+          "title": "自己买一瓶水",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w24",
+          "title": "去快递站取件",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w25",
+          "title": "看早餐怎么做",
+          "done": false,
+          "date": "",
+          "awarded": false
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "name": "看自然和季节",
+      "icon": "🌿",
+      "items": [
+        {
+          "id": "w31",
+          "title": "清晨听鸟叫",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w32",
+          "title": "雨后看水洼",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w33",
+          "title": "捡 5 片树叶",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w34",
+          "title": "观察小昆虫",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w35",
+          "title": "晚上找月亮",
+          "done": false,
+          "date": "",
+          "awarded": false
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "name": "看公共空间",
+      "icon": "🏛",
+      "items": [
+        {
+          "id": "w41",
+          "title": "去图书馆借书",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w42",
+          "title": "看 3 件展品",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w43",
+          "title": "看一幅画",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w44",
+          "title": "试一个科技展项",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w45",
+          "title": "去社区中心",
+          "done": false,
+          "date": "",
+          "awarded": false
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "name": "看不同职业",
+      "icon": "👮",
+      "items": [
+        {
+          "id": "w51",
+          "title": "观察医生问诊",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w52",
+          "title": "看交警指挥",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w53",
+          "title": "谢谢快递员",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w54",
+          "title": "看理发师剪发",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w55",
+          "title": "问保安做什么",
+          "done": false,
+          "date": "",
+          "awarded": false
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "name": "看钱和选择",
+      "icon": "💰",
+      "items": [
+        {
+          "id": "w61",
+          "title": "10 元小采购",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w62",
+          "title": "比较商品价格",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w63",
+          "title": "看电子支付",
+          "done": false,
+          "date": "",
+          "awarded": true
+        },
+        {
+          "id": "w64",
+          "title": "分清想要和需要",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w65",
+          "title": "记一笔小账",
+          "done": false,
+          "date": "",
+          "awarded": false
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "name": "看规则和秩序",
+      "icon": "🚦",
+      "items": [
+        {
+          "id": "w71",
+          "title": "排队不插队",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w72",
+          "title": "扶梯站稳扶好",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w73",
+          "title": "公共场合小声说话",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w74",
+          "title": "垃圾分类",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w75",
+          "title": "判断红绿灯",
+          "done": false,
+          "date": "",
+          "awarded": false
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "name": "看自己能做什么",
+      "icon": "🌟",
+      "items": [
+        {
+          "id": "w81",
+          "title": "自己问路",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w82",
+          "title": "自己点餐",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w83",
+          "title": "收拾出门小包",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w84",
+          "title": "讲一件新鲜事",
+          "done": false,
+          "date": "",
+          "awarded": false
+        },
+        {
+          "id": "w85",
+          "title": "画见世面地图",
+          "done": false,
+          "date": "",
+          "awarded": false
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "card_city",
+      "catId": "c1",
+      "icon": "🚌",
+      "title": "城市怎么运转观察卡",
+      "sub": "今天，我们去看看城市是怎么忙起来的。",
+      "fields": [
+        {
+          "k": "checks",
+          "label": "⭐ 观察清单（看到了就打√）",
+          "type": "checks",
+          "options": [
+            "公交站牌上有什么信息",
+            "地铁线路图怎么找方向",
+            "红绿灯什么时候可以走",
+            "环卫工人清扫了哪里",
+            "车站里人们怎么排队进站"
+          ]
+        },
+        {
+          "k": "draw",
+          "label": "🖍 我看到的站牌 / 线路图（用文字描述，也可以画在纸上）",
+          "type": "area"
+        },
+        {
+          "k": "rule",
+          "label": "⭐ 我学到的一条交通规则",
+          "type": "text"
+        }
+      ],
+      "tip": "出门观察要和大人一起，过马路先看灯，再看车。"
+    },
+    {
+      "id": "card_market",
+      "catId": "c2",
+      "icon": "🥬",
+      "title": "菜市场和超市小侦探",
+      "sub": "看一看，生活里的东西从哪里来。",
+      "fields": [
+        {
+          "k": "veggies",
+          "label": "🥕 我认识的蔬菜（试着写下 10 种）",
+          "type": "area"
+        },
+        {
+          "k": "prices",
+          "label": "🏷 我找到的价格标签（商品名称：价格，写 3 个）",
+          "type": "area"
+        },
+        {
+          "k": "found",
+          "label": "🔍 今天我发现",
+          "type": "area"
+        }
+      ],
+      "tip": "买东西前先看价格，再想想是不是真的需要。小票可以贴在纸质本子上。"
+    },
+    {
+      "id": "card_nature",
+      "catId": "c3",
+      "icon": "🌿",
+      "title": "自然和季节观察页",
+      "sub": "走慢一点，看看夏天藏在哪里。",
+      "fields": [
+        {
+          "k": "bird",
+          "label": "🐦 清晨听鸟叫：我听到的声音像",
+          "type": "text"
+        },
+        {
+          "k": "puddle",
+          "label": "💧 雨后看水洼：水洼里映出了",
+          "type": "text"
+        },
+        {
+          "k": "leaf",
+          "label": "🍃 捡 5 片树叶：最特别的一片长什么样",
+          "type": "text"
+        },
+        {
+          "k": "bug",
+          "label": "🐞 观察小昆虫：它在做什么",
+          "type": "text"
+        },
+        {
+          "k": "moon",
+          "label": "🌙 晚上找月亮：今天的月亮像",
+          "type": "text"
+        }
+      ],
+      "tip": "观察小昆虫，只看不伤害；喜欢自然，也要保护自然。"
+    },
+    {
+      "id": "card_public",
+      "catId": "c4",
+      "icon": "🏛",
+      "title": "公共空间使用说明书",
+      "sub": "公共空间，是大家一起使用的地方。",
+      "fields": [
+        {
+          "k": "lib",
+          "label": "🏫 图书馆｜今天我看的书是",
+          "type": "text"
+        },
+        {
+          "k": "museum",
+          "label": "🏛 博物馆｜最喜欢的展品是",
+          "type": "text"
+        },
+        {
+          "k": "art",
+          "label": "🎨 美术馆｜画里有",
+          "type": "text"
+        },
+        {
+          "k": "community",
+          "label": "🏠 社区中心｜我发现这里可以办理",
+          "type": "text"
+        },
+        {
+          "k": "rules",
+          "label": "⭐ 公共空间小规则（做到了就打√）",
+          "type": "checks",
+          "options": [
+            "小声说话",
+            "不乱跑",
+            "排队等待",
+            "用完物品放回原处"
+          ]
+        }
+      ],
+      "tip": "会使用公共空间，就是学会和别人一起生活。"
+    },
+    {
+      "id": "card_job",
+      "catId": "c5",
+      "icon": "👮",
+      "title": "职业观察小采访",
+      "sub": "每一种工作，都在帮生活变得更好。",
+      "fields": [
+        {
+          "k": "job",
+          "label": "👀 我观察的职业（医生 / 交警 / 快递员 / 理发师 / 保安 / 其他）",
+          "type": "text"
+        },
+        {
+          "k": "doing",
+          "label": "📝 他 / 她在做什么",
+          "type": "text"
+        },
+        {
+          "k": "tools",
+          "label": "🔧 用到了什么工具",
+          "type": "text"
+        },
+        {
+          "k": "hard",
+          "label": "💪 这份工作辛苦在哪里",
+          "type": "text"
+        },
+        {
+          "k": "question",
+          "label": "💬 我想问的问题",
+          "type": "text"
+        }
+      ],
+      "tip": "采访前先问「我可以请教您一个问题吗？」不要打扰别人工作。别忘了说：谢谢您，辛苦啦！"
+    },
+    {
+      "id": "card_money",
+      "catId": "c6",
+      "icon": "💰",
+      "title": "10 元小采购计划",
+      "sub": "给自己一个小预算，学会选择。",
+      "fields": [
+        {
+          "k": "want",
+          "label": "🛒 我有 10 元，我想买什么",
+          "type": "text"
+        },
+        {
+          "k": "compare",
+          "label": "🔍 我比较了什么（如：A 和 B）",
+          "type": "text"
+        },
+        {
+          "k": "bought",
+          "label": "✅ 最后我买了",
+          "type": "text"
+        },
+        {
+          "k": "goods",
+          "label": "📋 商品记录（每行写：商品 / 价格 / 是需要还是想要）",
+          "type": "area"
+        },
+        {
+          "k": "spent",
+          "label": "📒 花了几元",
+          "type": "text"
+        },
+        {
+          "k": "left",
+          "label": "💵 还剩几元",
+          "type": "text"
+        },
+        {
+          "k": "learned",
+          "label": "🌟 我学到",
+          "type": "area"
+        }
+      ],
+      "tip": "会花钱，不是买很多，而是想清楚再选择。"
+    },
+    {
+      "id": "card_rule",
+      "catId": "c7",
+      "icon": "🚦",
+      "title": "规则和秩序小侦探",
+      "sub": "规则不是限制我们，是保护大家更安全。",
+      "fields": [
+        {
+          "k": "did",
+          "label": "⭐ 今天我做到了（打√）",
+          "type": "checks",
+          "options": [
+            "排队 —— 不插队",
+            "扶梯 —— 站稳扶好",
+            "公共场合 —— 小声说话",
+            "垃圾桶 —— 分类投放",
+            "红绿灯 —— 绿灯再走"
+          ]
+        },
+        {
+          "k": "myrule",
+          "label": "⭐ 今天我自己遵守的一条规则是",
+          "type": "text"
+        },
+        {
+          "k": "remind",
+          "label": "💡 我提醒自己",
+          "type": "text"
+        }
+      ],
+      "tip": "能看懂规则，说明你越来越会照顾自己和别人。"
+    },
+    {
+      "id": "card_news",
+      "catId": "c8",
+      "icon": "🌟",
+      "title": "今天我见到的新鲜事",
+      "sub": "把看见的生活，说给别人听。",
+      "fields": [
+        {
+          "k": "who",
+          "label": "👧 谁",
+          "type": "text"
+        },
+        {
+          "k": "where",
+          "label": "📍 在哪里",
+          "type": "text"
+        },
+        {
+          "k": "what",
+          "label": "👀 看到了什么",
+          "type": "text"
+        },
+        {
+          "k": "feel",
+          "label": "❤️ 我觉得",
+          "type": "text"
+        },
+        {
+          "k": "s1",
+          "label": "📖 我来写 3 句话 · 第 1 句",
+          "type": "text"
+        },
+        {
+          "k": "s2",
+          "label": "第 2 句",
+          "type": "text"
+        },
+        {
+          "k": "s3",
+          "label": "第 3 句",
+          "type": "text"
+        }
+      ],
+      "tip": "写不长也没关系，先把「谁、哪里、做什么」说清楚。"
+    }
+  ],
+  "entries": [],
+  "map": {
+    "places": [
+      {
+        "name": "公交站",
+        "icon": "🚌",
+        "been": false
+      },
+      {
+        "name": "菜市场",
+        "icon": "🥬",
+        "been": false
+      },
+      {
+        "name": "公园",
+        "icon": "🌳",
+        "been": false
+      },
+      {
+        "name": "图书馆",
+        "icon": "📖",
+        "been": false
+      },
+      {
+        "name": "超市",
+        "icon": "🛒",
+        "been": false
+      },
+      {
+        "name": "社区中心",
+        "icon": "🏠",
+        "been": false
+      }
+    ],
+    "proud": "",
+    "parentNote": ""
+  }
+}

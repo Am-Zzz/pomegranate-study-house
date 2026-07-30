@@ -1,0 +1,364 @@
+{
+  "_schema": "暑假30天亲子打卡挑战。meta：标题/副标题/每件事完成奖励 pointsPerTask 阳光值；scenes[] 适用场景、tags[] 内容标签（素材库用途）。weeks[] 5 周，每周 6 件事：day 为第几天(1-30)，title 事项，desc 怎么做，done 是否完成，date 完成日期，awarded 是否已发过阳光值(防取消再勾重复奖励)，note 完成后的一句话记录（孩子口述/家长代记）。memory：挑战结束的收官记录（最难忘的一天 bestDay / 家长寄语 parentNote）。",
+  "meta": {
+    "title": "暑假 30 天亲子打卡挑战",
+    "subtitle": "陪孩子用 30 天时间，完成一个有趣、有记录、有成长的暑假",
+    "pointsPerTask": 5,
+    "scenes": [
+      "亲子暑期活动策划",
+      "图文内容选题",
+      "打卡挑战发布",
+      "家庭教育素材库",
+      "AI 绘图角色与场景参考"
+    ],
+    "tags": [
+      "亲子打卡",
+      "暑假活动",
+      "30天挑战",
+      "家庭教育",
+      "儿童任务",
+      "生活实践"
+    ]
+  },
+  "weeks": [
+    {
+      "id": "w1",
+      "name": "热身",
+      "icon": "🌱",
+      "days": [
+        {
+          "id": "d01",
+          "day": 1,
+          "title": "制定暑假愿望清单",
+          "desc": "和孩子一起写下暑假想做的事，做成愿望清单。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d02",
+          "day": 2,
+          "title": "互相画一张画像",
+          "desc": "爸爸、妈妈、孩子互相画像，观察彼此的特点。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d03",
+          "day": 3,
+          "title": "一起做一顿早餐",
+          "desc": "让孩子参与准备早餐，体验生活技能。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d04",
+          "day": 4,
+          "title": "家庭电影之夜",
+          "desc": "选一部适合孩子的电影，准备零食，一起观影。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d05",
+          "day": 5,
+          "title": "整理书架，捐旧书",
+          "desc": "和孩子一起整理书籍，学会分类和取舍。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d06",
+          "day": 6,
+          "title": "学一首新歌，唱给彼此听",
+          "desc": "选一首简单的歌，全家人一起学唱。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "w2",
+      "name": "动起来",
+      "icon": "🏃",
+      "days": [
+        {
+          "id": "d07",
+          "day": 7,
+          "title": "早起看一次日出",
+          "desc": "和孩子一起早起，观察日出和早晨的变化。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d08",
+          "day": 8,
+          "title": "去公园放一次风筝",
+          "desc": "带孩子去公园奔跑、放风筝、感受风。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d09",
+          "day": 9,
+          "title": "学骑自行车或轮滑",
+          "desc": "陪孩子练习一项运动，鼓励他慢慢熟练。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d10",
+          "day": 10,
+          "title": "捡树叶，做标本",
+          "desc": "收集不同树叶，观察形状、颜色和纹理。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d11",
+          "day": 11,
+          "title": "跳绳比赛",
+          "desc": "和孩子一起跳绳，记录最多能跳多少个。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d12",
+          "day": 12,
+          "title": "夜跑看星星",
+          "desc": "晚上和家人一起出门散步，观察夜空和星星。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "w3",
+      "name": "动手做",
+      "icon": "🎨",
+      "days": [
+        {
+          "id": "d13",
+          "day": 13,
+          "title": "纸箱变小房子",
+          "desc": "用纸箱做一个小房子，发挥孩子的想象力。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d14",
+          "day": 14,
+          "title": "一起做一锅手擀面",
+          "desc": "和孩子一起揉面、擀面、做简单面食。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d15",
+          "day": 15,
+          "title": "种一颗种子",
+          "desc": "准备花盆、种子和小铲子，观察植物生长。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d16",
+          "day": 16,
+          "title": "做一本家庭小相册",
+          "desc": "挑选照片，和孩子一起制作家庭回忆册。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d17",
+          "day": 17,
+          "title": "学折纸，折 10 种动物",
+          "desc": "从简单的纸飞机、青蛙、小船开始。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d18",
+          "day": 18,
+          "title": "一起烤一盘饼干",
+          "desc": "让孩子参与称量、搅拌、压模和装饰。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "w4",
+      "name": "长见识",
+      "icon": "🔭",
+      "days": [
+        {
+          "id": "d19",
+          "day": 19,
+          "title": "博物馆孩子当讲解员",
+          "desc": "去博物馆前先做功课，让孩子试着讲解一个展品。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d20",
+          "day": 20,
+          "title": "共读一本书，互相提问",
+          "desc": "选一本适合孩子的书，读完后互相提问。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d21",
+          "day": 21,
+          "title": "做一个科学小实验",
+          "desc": "选择简单、安全、有趣的小实验，比如水、颜色、气泡、磁铁等。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d22",
+          "day": 22,
+          "title": "画一张家庭小地图",
+          "desc": "让孩子画出家里附近的路线、公园、超市和学校。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d23",
+          "day": 23,
+          "title": "采访爷爷奶奶的童年",
+          "desc": "准备几个问题，听长辈讲小时候的故事。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d24",
+          "day": 24,
+          "title": "学 5 句简单外语",
+          "desc": "学习问候、感谢、道歉、介绍自己等简单表达。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "w5",
+      "name": "收获季",
+      "icon": "🍎",
+      "days": [
+        {
+          "id": "d25",
+          "day": 25,
+          "title": "家庭才艺秀",
+          "desc": "全家人准备一个小节目，唱歌、跳舞、朗诵、乐器都可以。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d26",
+          "day": 26,
+          "title": "给最好的一天画张画",
+          "desc": "让孩子画出暑假里最喜欢的一天。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d27",
+          "day": 27,
+          "title": "做暑假总结手册",
+          "desc": "用照片、绘画、贴纸和文字记录暑假生活。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d28",
+          "day": 28,
+          "title": "给开学后的自己写一封信",
+          "desc": "写给新学期的自己，写下期待和目标。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d29",
+          "day": 29,
+          "title": "全家做一顿大餐庆祝",
+          "desc": "让孩子参与菜单、采购、摆盘和餐桌布置。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        },
+        {
+          "id": "d30",
+          "day": 30,
+          "title": "封存暑假记忆盒",
+          "desc": "把照片、车票、树叶、作品、小纸条放进盒子，保存暑假记忆。",
+          "done": false,
+          "date": "",
+          "awarded": false,
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "memory": {
+    "bestDay": "",
+    "parentNote": ""
+  }
+}
